@@ -21,10 +21,19 @@ module.exports = {
                 },
             },
             },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ],
+            },
         ],
     },
     plugins: [new HtmlWebpackPlugin({
         template: "./src/index.html",
-        filenaem: "index.html"
+        filename: "index.html"
     })]
 };
