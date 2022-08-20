@@ -1,4 +1,4 @@
-import './../sass/app.scss';
+import '../sass/app.scss';
 
 const app = document.getElementById('app');
 

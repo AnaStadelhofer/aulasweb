@@ -1,0 +1,44 @@
+body {
+    background-color: pink;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    background-color: white;
+    max-width: 768px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+}
+
+.row {
+    display: flex;
+    justify-content:  space-between;;
+}
+
+.row .col {
+    flex: 0 1 100%;
+}
+
+@media (max-width:768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:769px) {
+    .row {
+        flex-direction: column;
+    }
+    h1 {
+        font-size:  1.5rem;
+    }
+}
