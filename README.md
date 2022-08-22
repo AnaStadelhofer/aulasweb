@@ -18,7 +18,7 @@
 1. yarn init ou npm init
 1. yarn add -D webpack webpack-cli @babel/core @babel/cli @babel/preset-env html-webpack-plugin
 1. yarn add -D babel-loader
-1. yarn add -D sass-loader css-loader style-
+1. yarn add -D sass-loader css-loader style-loader
 1. npm install node-sass --save
 
 1. yarn add -D webpack webpack-cli @babel/core @babel/cli @babel/preset-env babel-loader style-loader css-loader sass-loader node-sass html-webpack-plugin 
