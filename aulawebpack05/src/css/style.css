@@ -1,0 +1,47 @@
+#main ul{
+    display: flex;
+    justify-content:  space-between;
+    padding-left: 0;
+}
+
+#main ul li {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+#main ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+    padding: 20px 10px 20px 10px;
+    display: block;
+}
+
+#main ul li a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: aliceblue;
+}
+
+body {
+    background-color: rgb(250, 223, 227);
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.container {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#main ul li ul.sub {
+    display: none;
+    position: absolute;
+
+   min-width: min-content;
+}
+
+#main ul li:hover ul.sub {
+    display: block;
+    background-color: aliceblue;
+}
