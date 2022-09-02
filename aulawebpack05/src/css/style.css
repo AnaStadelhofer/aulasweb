@@ -32,6 +32,7 @@ body {
 .container {
     background-color: white;
     border-radius: 2rem;
+    max-width: 70%;
 }
 
 #main ul li ul.sub {
