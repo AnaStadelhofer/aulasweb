@@ -1,0 +1,11 @@
+@import "_nav.css";
+@import "_general.css";
+@import "_font.css";
+
+body {
+    background-color: rgb(250, 223, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
